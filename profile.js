@@ -77,7 +77,7 @@ export const projects = [
     name: "Websocket",
     description:
       "Este programa fue creado para obtener precios en tiempo real de la criptomoneda Bitcoin de diferentes exchanges como Binance, Kucoin, etc., y guardar los en una base de datos. Hecho en Python. Base de Datos: MYSQL",
-    image: "btc.png",
+    image: "dash.jpeg",
     github: "/confidential"
   },
 ];
