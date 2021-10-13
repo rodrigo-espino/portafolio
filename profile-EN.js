@@ -77,7 +77,7 @@ export const projects = [
     name: "WebSocket",
     description:
       "This program was created for getting real-time prices of Bitcoin Cryptocurrency from differents exchanges like Binance, Kucoin, etc. and save  them in a Database. Made with Python. Database: MYSQL",
-    image: "btc.png",
+    image: "dash.jpeg",
     github: "/en/confidential"
   },
 
