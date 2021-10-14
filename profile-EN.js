@@ -43,7 +43,7 @@ export const experiences = [
     web: "https://midesc.com/finanzas",
   },
   {
-    title: "Robótica",
+    title: "Robotics",
     description:
       "During my time at middle school I became part of a robotics' team from Vex Robotics platform. After getting my degree, I decided to keep helping the team to strengthen their knowledge and mine.",
     from: 2014,
@@ -52,13 +52,6 @@ export const experiences = [
   },
 ];
 export const projects = [
-  {
-    name: "Portfolio",
-    description:
-      "This portfolio was made to give information about me to companies when applying for a job. Made  with NextJS",
-    image: "port-1.png",
-    github: "https://github.com/rodrigo-espino/portafolio"
-  },
   {
     name: "Point of Sale",
     description:
@@ -79,6 +72,13 @@ export const projects = [
       "This program was created for getting real-time prices of Bitcoin Cryptocurrency from differents exchanges like Binance, Kucoin, etc. and save  them in a Database. Made with Python. Database: MYSQL",
     image: "dash.jpeg",
     github: "/en/confidential"
+  },
+  {
+    name: "AI Prices",
+    description:
+      "AI capable of predicting prices in the current cryptocurrency market. Made with Python",
+    image: "IA.png",
+    github: "https://github.com/rodrigo-espino/bot"
   },
 
 ];

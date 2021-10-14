@@ -52,13 +52,7 @@ export const experiences = [
   },
 ];
 export const projects = [
-  {
-    name: "Portfolio",
-    description:
-      "Este portafolio fue creado para dar información sobre mi a empresas al momento de solicitar empleo. Hecho con NextJS",
-    image: "port-1.png",
-    github: "https://github.com/rodrigo-espino/portafolio"
-  },
+  
   {
     name: "Punto de Venta",
     description:
@@ -79,6 +73,13 @@ export const projects = [
       "Este programa fue creado para obtener precios en tiempo real de la criptomoneda Bitcoin de diferentes exchanges como Binance, Kucoin, etc., y guardar los en una base de datos. Hecho en Python. Base de Datos: MYSQL",
     image: "dash.jpeg",
     github: "/confidential"
+  },
+  {
+    name: "IA Precios",
+    description:
+      "Inteligencia Artificial capaz de predecir los precios en el mercado actual de criptomonedas. Hecho con Python.",
+    image: "IA.png",
+    github: "https://github.com/rodrigo-espino/bot"
   },
 ];
 
