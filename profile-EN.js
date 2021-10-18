@@ -73,13 +73,7 @@ export const projects = [
     image: "dash.jpeg",
     github: "/en/confidential"
   },
-  {
-    name: "AI Prices",
-    description:
-      "AI capable of predicting prices in the current cryptocurrency market. Made with Python",
-    image: "IA.png",
-    github: "https://github.com/rodrigo-espino/bot"
-  },
+  
 
 ];
 

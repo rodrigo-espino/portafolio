@@ -74,13 +74,7 @@ export const projects = [
     image: "dash.jpeg",
     github: "/confidential"
   },
-  {
-    name: "IA Precios",
-    description:
-      "Inteligencia Artificial capaz de predecir los precios en el mercado actual de criptomonedas. Hecho con Python.",
-    image: "IA.png",
-    github: "https://github.com/rodrigo-espino/bot"
-  },
+ 
 ];
 
 export const certific = [
