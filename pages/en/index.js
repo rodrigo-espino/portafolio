@@ -1,6 +1,9 @@
 import Layout from "../../components/Layout";
 import { skills, experiences, projects, certific } from "../../profile-EN";
 import Link from "next/link";
+import { EmailJSResponseStatus } from "emailjs-com";
+import emailjs from "emailjs-com"
+
 const Index = () => (
   <Layout>
     {/**Header card */}
@@ -21,7 +24,7 @@ const Index = () => (
                 <br></br>
                 <br></br>
                 Currently, I am studying for becoming a software engineer at Universidad Politécnica de Durango. In the future I hope 
-                to specialize in Artifial Inteligence.
+                to specialize in Artificial Inteligence.
               </p>
               <a className="btn btn-outline-primary" href="./download/Resume-RodrigoS-EN.pdf">
                 Download Resume
@@ -144,7 +147,7 @@ const Index = () => (
         </div>
       </div>
     </div>
-
+<br></br>
     
 
   </Layout>

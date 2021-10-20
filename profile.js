@@ -45,7 +45,7 @@ export const experiences = [
   {
     title: "Robótica",
     description:
-      "Durante mi tiempo en secundaria llegue a formar parte de un equipo de robótica de la plataforma Vex Robotics. Despues de egresar, decidí seguir apoyando a los equipos a fortalecer sus conocimientos y los mios.",
+      "Una vez empece mi periodo de estudios en la secundaria, forme parte de un equipo de robótica, me convertí en diseñador, soliamos diseñar en el programa de Autodesk Inventor y trabajar con la plataforma de Vex Robotics, una vez me gradue de la secundaria continue ayudando a el equipo, pero ahora siendo coach, enseñaba a los alumnos sobre diseño y los ayudaba en los torneos, ganamos algunos premios e inclusivo llegamos a ir al mundial.",
     from: 2014,
     to: 2019,
     web: "https://est1tm.edu.mx/home/",

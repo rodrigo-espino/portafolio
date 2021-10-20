@@ -45,7 +45,7 @@ export const experiences = [
   {
     title: "Robotics",
     description:
-      "During my time at middle school I became part of a robotics' team from Vex Robotics platform. After getting my degree, I decided to keep helping the team to strengthen their knowledge and mine.",
+      "Once I started my  middle School period, I became part of robotics team, I was doing robot’s design, we used to design in Autodesk inventor, and work with vex robotics platform; when I got graduated from middle school, I continued helping the teams, but now, instead of being a team member, I was a coach, I used to teach students about design and help them during a championship, we won some accomplishments and also we went to the world championship ",
     from: 2014,
     to: 2019,
     web: "https://est1tm.edu.mx/home/",

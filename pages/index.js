@@ -1,7 +1,11 @@
 import Layout from "../components/Layout";
 import { skills, experiences, projects, certific } from "../profile";
 import Link from "next/link";
+import { EmailJSResponseStatus } from "emailjs-com";
+import emailjs from "emailjs-com"
+
 const Index = () => (
+  
   <Layout>
     {/**Header card */}
     <header className="row">
@@ -144,9 +148,11 @@ const Index = () => (
         </div>
       </div>
     </div>
+    <br></br>
+
 
     
-
+    
   </Layout>
 );
 
