@@ -27,7 +27,7 @@ const Index = () => (
                 Actualmente soy estudiante de la carrera de ingenieria  en software en la Universidad  Politécnica de  Durango; en un futuro espero
                 especializarme en el área de  Inteligencia Artificial.
               </p>
-              <a className="btn btn-outline-primary" href="./download/CV-RodrigoS-ES.pdf">
+              <a className="btn btn-outline-primary" href="./download/Resume_Santacruz_Espino.pdf">
                 Descargar CV
               </a>
             </div>

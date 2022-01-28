@@ -26,7 +26,7 @@ const Index = () => (
                 Currently, I am studying for becoming a software engineer at Universidad Politécnica de Durango. In the future I hope 
                 to specialize in Artificial Inteligence.
               </p>
-              <a className="btn btn-outline-primary" href="./download/Resume-RodrigoS-EN.pdf">
+              <a className="btn btn-outline-primary" href="./download/Resume_Santacruz_Espino.pdf">
                 Download Resume
               </a>
             </div>
