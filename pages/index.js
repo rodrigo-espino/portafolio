@@ -18,11 +18,11 @@ const Index = () => (
             <div className="col-md-8">
               <h1>Rodrigo Santacruz Espino</h1>
               <h4>Desarrollador de Software</h4>
-              <br/>
+              <br><br/>
               <p>
                 Soy un desarrollador de software enfocado en la elaboración de aplicaciones de escritorio para diferentes sistemas operativos, aplicaciones web
-                como back-end, asi como desarrollo en web3. <br/>
-                <br/>
+                como back-end, asi como desarrollo en web3. <br><br/>
+                <br><br/>
                 Actualmente soy estudiante de la carrera de ingenieria  en software en la Universidad  Politécnica de  Durango. 
                 Me considero una persona autodidacta capaz de aprender cualquier cosa relacionado al tema de programación.
               </p>
@@ -113,7 +113,7 @@ const Index = () => (
         </div>
       </div>
     </div>
-    <br/>
+    <br><br/>
     
 
     {/*Certificados */}
