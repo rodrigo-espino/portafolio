@@ -17,7 +17,7 @@ export const skills = [
   },
   {
     skill: "Java",
-    percentage: 70,
+    percentage: 45,
   },
   {
     skill: "MYSQL/MongoDB",
@@ -27,28 +27,28 @@ export const skills = [
 ];
 export const experiences = [
   {
-    title: "Midesc",
+    title: "Escuela Secundaria Tecnica 1",
     description:
-      "Computers were maintained and restaurant automation using arduino microcontrollers.",
-    from: 2018,
+      "Taught 3D design at sudents who were part of robotics' team, and fundamentals of microcontrollers (Arduino).",
+    from: 2016,
     to: 2019,
-    web: "https://midesc-core.com",
+    web: "https://est1tm.edu.mx/home/",
   },
   {
-    title: "IFC",
+    title: "Midesc",
     description:
       "Websocket for getting cryptocurrency's price in real time and storage it in Database to consult in the main aplication (trading bot).",
-    from: 2020,
+    from: 2021,
     to: 2021,
     web: "https://midesc.com/finanzas",
   },
   {
-    title: "Robotics",
+    title: "ZORO AI (Personal Project)",
     description:
-      "Once I started my  middle School period, I became part of robotics team, I was doing robot’s design, we used to design in Autodesk inventor, and work with vex robotics platform; when I got graduated from middle school, I continued helping the teams, but now, instead of being a team member, I was a coach, I used to teach students about design and help them during a championship, we won some accomplishments and also we went to the world championship ",
-    from: 2014,
-    to: 2019,
-    web: "https://est1tm.edu.mx/home/",
+      "Created an Artificial Intelligence to predict cryptocurrencies' prices.",
+    from: 2021,
+    to: "Present",
+    web: "404",
   },
 ];
 export const projects = [

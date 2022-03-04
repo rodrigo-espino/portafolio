@@ -13,21 +13,20 @@ const Index = () => (
         <div className="card card-body bg-secondary">
           <div className="row">
             <div className="col-md-4">
-              <img src="imagen.png" alt="" className="img-fluid"></img>
+              <img src="imagen.png" alt="Rodrigo Santacruz Espin" className="img-fluid rounded float-start"></img>
             </div>
             <div className="col-md-8">
               <h1>Rodrigo Santacruz Espino</h1>
               <h4>Desarrollador de Software</h4>
-              <br></br>
+              <br/>
               <p>
-                Soy un desarrollador de distintos campos de la programación, aplicaciones de escritorio (Windows, MacOS y Linux),
-                aplicaciones para dispositivos moviles (iOS y Android) y aplicaciones web como  back-end. Me considero una persona autodidacta, capaz de aprender cualquier 
-                lenguaje de programación, funciones, etc.<br></br>
-                <br></br>
-                Actualmente soy estudiante de la carrera de ingenieria  en software en la Universidad  Politécnica de  Durango; en un futuro espero
-                especializarme en el área de  Inteligencia Artificial.
+                Soy un desarrollador de software enfocado en la elaboración de aplicaciones de escritorio para diferentes sistemas operativos, aplicaciones web
+                como back-end, asi como desarrollo en web3. <br/>
+                <br/>
+                Actualmente soy estudiante de la carrera de ingenieria  en software en la Universidad  Politécnica de  Durango. 
+                Me considero una persona autodidacta capaz de aprender cualquier cosa relacionado al tema de programación.
               </p>
-              <a className="btn btn-outline-primary" href="./download/Resume_Santacruz_Espino.pdf">
+              <a className="btn btn-outline-primary" target="_blank" href="./download/Resume_Santacruz_Espino.pdf">
                 Descargar CV
               </a>
             </div>
@@ -84,13 +83,14 @@ const Index = () => (
         </div>
       </div>
     </div>
+   
     {/**Portfolio */}
     <div className="row">
       <div className="col-md-12">
         <div className="card card-body bg-dark">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="text-center text-light" >Portfolio</h1>
+              <h1 className="text-center text-light" >Portafolio</h1>
             </div>
             {projects.map(({ name, description, image, github }, i) => (
               <div className="col-md-4 p-2" key={i}>
@@ -113,12 +113,8 @@ const Index = () => (
         </div>
       </div>
     </div>
-    <div className="col-md-8">
-        <div className="card bg-light">
-        <div className="card bg-light">
-        </div>
-        </div>
-    </div>
+    <br/>
+    
 
     {/*Certificados */}
     <div className="row">

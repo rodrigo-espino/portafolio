@@ -1,4 +1,4 @@
-import "bootswatch/dist/lux/bootstrap.min.css";
+import "bootswatch/dist/Lux/bootstrap.min.css";
 import "../components/css/style.css"
 import "../components/css/main.css"
 import "../components/css/font.css"

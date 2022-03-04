@@ -17,7 +17,7 @@ export const skills = [
   },
   {
     skill: "Java",
-    percentage: 70,
+    percentage: 45,
   },
   {
     skill: "MYSQL/MongoDB",
@@ -28,28 +28,29 @@ export const skills = [
 ];
 export const experiences = [
   {
-    title: "Midesc",
+    title: "Escuela Secundaria Tecnica 1",
     description:
-      "Se realizó mantenimiento de computo y automatización de restaurante usando microcontrolador arduino.",
-    from: 2018,
+      "Enseñanza a alumnos de robótica sobre diseño en tercera dimensión (3D) en Autodesk Inventor y fundamentos basicos de Arduino.",
+    from: 2016,
     to: 2019,
-    web: "https://midesc-core.com",
+    web: "https://est1tm.edu.mx/home/",
   },
   {
-    title: "IFC",
+    title: "Midesc",
     description:
-      "Websocket para obtener precios de cryptomonedas en tiempo real y almacenarlas en bases de datos para consultar en aplicación principal (bot de trading).",
-    from: 2020,
+      "Creacion de websocket para obtener los precios de las diferentes criptomonedas existentes para la creacion de un bot de trading.",
+    from: 2021,
     to: 2021,
     web: "https://midesc.com/finanzas",
   },
+  
   {
-    title: "Robótica",
+    title: "ZORO IA (Proyecto Personal)",
     description:
-      "Una vez empece mi periodo de estudios en la secundaria, forme parte de un equipo de robótica, me convertí en diseñador, soliamos diseñar en el programa de Autodesk Inventor y trabajar con la plataforma de Vex Robotics, una vez me gradue de la secundaria continue ayudando a el equipo, pero ahora siendo coach, enseñaba a los alumnos sobre diseño y los ayudaba en los torneos, ganamos algunos premios e inclusivo llegamos a ir al mundial.",
-    from: 2014,
-    to: 2019,
-    web: "https://est1tm.edu.mx/home/",
+      "Creacion de una Inteligencia Artificial para la prediccion del precio de criptomonedas.",
+    from: 2021,
+    to: "Presente",
+    web: "404",
   },
 ];
 export const projects = [
