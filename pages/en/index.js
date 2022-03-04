@@ -71,7 +71,7 @@ const Index = () => (
                       {description}
                       <br></br>{" "}
                       <Link href={web} >
-                        <a class="btn btn-primary btn-sm" target="_blank">Web Site</a>
+                        <a className="btn btn-primary btn-sm" target="_blank">Web Site</a>
                       </Link>
                       
                     </p>
@@ -102,7 +102,7 @@ const Index = () => (
                     <h3>{name}</h3>
                     <p>{description}</p>
                     <Link href={github} >
-                        <a class="btn btn-primary btn-sm" target="_blank">Repository</a>
+                        <a className="btn btn-primary btn-sm" target="_blank">Repository</a>
                       </Link>
                   </div>
                 </div>
