@@ -17,12 +17,12 @@ const Index = () => (
             <div className="col-md-8">
               <h1>Rodrigo Santacruz Espino</h1>
               <h4>Software Developer</h4>
-              <br><br/>
+              <br></br>
               <p>
                 I am a software developer focused on creating desktop applications for differents operative systems, applications web as back-end developer,
                 as well as development in web3.
-                <br><br/>
-                <br><br/>
+                <br></br>
+                <br></br>
                 Currently, I am studying for becoming a software engineer at Universidad Politécnica de Durango. 
                 I consider myself a self-taught person who is able to learn anything about the subject.
               </p>
