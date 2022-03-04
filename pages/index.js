@@ -73,7 +73,6 @@ const Index = () => (
                       <Link href={web} >
                         <a className="btn btn-primary btn-sm" target="_blank">Página web</a>
                       </Link>
-                      
                     </p>
                   </li>
                 )
