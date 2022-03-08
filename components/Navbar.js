@@ -1,44 +1,37 @@
 import Link from "next/link";
 const Navbar = () => (
   <header>
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container">
-        
-          <a className="navbar-brand">Portfolio</a>
-        
-        
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-       
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div className="navbar-nav ml-auto">
-            <ul className= "navbar-nav ml-auto">
-              <li className="nav-item active">
-                <Link href="en">
-                <a className="nav-link" >EN</a>
-                </Link>
-              </li>
-              <li className="nav-item active">
-                <Link href="/">
-                <a className="nav-link " >ES</a>
-                </Link>
-              </li>
+      
+ 
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="/en">Portfolio</a>
+            <button 
+            	class="navbar-toggler" 
+            	type="button" 
+            	data-bs-toggle="collapse" 
+            	data-bs-target="#toggleMobileMenu" 
+            	aria-controls="toggleMobileMenu" 
+            	aria-expanded="false" 
+            	aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a class="nav-link" href="/en">EN</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="/">ES</a>
+                    </li>
+                    
+                </ul>
+                
 
-            </ul>
-          
-          </div>
-        </div>
-      </div>
-    </nav>
+            </div>
+        </nav>
+      
   </header>
 );
 
