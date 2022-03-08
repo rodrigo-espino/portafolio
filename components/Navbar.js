@@ -3,10 +3,10 @@ const Navbar = () => (
   <header>
       
  
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <a class="navbar-brand" href="/en">Portfolio</a>
+        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a className="navbar-brand" href="/en">Portfolio</a>
             <button 
-            	class="navbar-toggler" 
+            	className="navbar-toggler" 
             	type="button" 
             	data-bs-toggle="collapse" 
             	data-bs-target="#toggleMobileMenu" 
@@ -14,16 +14,16 @@ const Navbar = () => (
             	aria-expanded="false" 
             	aria-label="Toggle navigation"
             >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+            <div className="collapse navbar-collapse" id="toggleMobileMenu">
             
-                <ul class="navbar-nav ms-auto text-center">
+                <ul className="navbar-nav ms-auto text-center">
                     <li>
-                        <a class="nav-link" href="/en">EN</a>
+                        <a className="nav-link" href="/en">EN</a>
                     </li>
                     <li>
-                        <a class="nav-link" href="/">ES</a>
+                        <a className="nav-link" href="/">ES</a>
                     </li>
                     
                 </ul>
